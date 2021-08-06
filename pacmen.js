@@ -103,7 +103,9 @@ function stopOne() {
   function makeOne() {
   pacMen.push(makePac()); // add a new PacMan
 }
-
+function Restart() {
+  location.reload();
+}
 
 //don't change this line
 if (typeof module !== 'undefined') {
